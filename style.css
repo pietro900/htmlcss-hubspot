@@ -26,6 +26,34 @@ header{
     background-color:black;
 }
 
+.cellaa{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.cella{
+    list-style-type: none;
+}
+
+.cella li{
+    display: inline-block;
+    padding:3% 2%
+}
+
+#bordo{
+    border-right: 1px solid black
+}
+
+.cella li a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+.cellab{
+    width: 50%;
+    float:right;
+}
+
 section{
     height: 400px;
     background-color: blue;
