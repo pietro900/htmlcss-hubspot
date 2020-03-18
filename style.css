@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: yellow;
+}
+
+.conteiner{
+    height: 100%;
+    width: 1000px;
+    background-color: green;
+    margin: auto;
+}
+
+.header-top{
+    height:50%;
+    background-color:red;
+}
+
+.header-bot{
+    height:50%;
+    background-color:black;
+}
+
+section{
+    height: 400px;
+    background-color: blue;
+    border: 1px solid orange;
+}
