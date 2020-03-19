@@ -4,50 +4,50 @@
     box-sizing: border-box;
 }
 
+.header-top{
+    height: 100px;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+header-bot{
+    width: 100vw;
+    height: 100px;
+    background-color: red;
+}
+
 .conteiner{
-    height: 160px;
+    height: 100px;
     width: 1000px;
     margin: auto;
 }
 
-.header-top{
-    height:50%;
-    background-color: #f5f8fa;
-}
+ a{
+     color:black;
+     text-decoration: none;
+ }
 
-.header-bot{
-    height:50%;
-    background-color:black;
-}
-
-.cella-a{
-    height: 80px;
-    width: 50%;
-}
-
-.cella{
-    list-style-type: none;
-}
-
-.cella li{
-    display: inline-block;
-}
-
-#bordo{
+.cella-a a:first-child{
+    padding-right: 5px;
     border-right: 1px solid black;
 }
 
-.cella li a{
-    text-decoration: none;
-    text-transform: uppercase;
-
-.cella-b{
-    height: 80px;
-    width: 50%;
+.cella-a a:nth-child(2){
+    padding-left: 20px;
 }
 
-section{
-    height: 400px;
-    background-color: blue;
-    border: 1px solid orange;
+.cella-a{
+    padding-top: 30px;
+    width: 50%;
+    font-size: 22px;
+    text-align: left;
+    float: left;
+}
+
+.cella-b{
+    width: 50%;
+    font-size: 22px;
+    padding: 30px 0;
+    text-align: right;
+    float: right;
 }
