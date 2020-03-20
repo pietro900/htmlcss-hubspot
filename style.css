@@ -10,6 +10,7 @@
     height: 100px;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 
 .header-bot{
@@ -127,6 +128,7 @@ section{;
 h1{
  font-size: 55px;
  font-weight: bold;
+ text-align: left;
 }
 
 .sezione-jambo{
@@ -138,6 +140,7 @@ h1{
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: 1.60em;
+    text-align: left;
 }
 
 .ght-big{
@@ -149,8 +152,83 @@ h1{
     margin-bottom: 20px;
     font-size: 20px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .sezione-jambo p{
     font-size: 16px;
+    text-align: left;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear: left;
+}
+
+.s-t-a{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-right: 8px;
+    float: left;
+    width: 40%;
+}
+
+h2{
+    color: #33475b;
+    font-size: 40px;
+    line-height: 1.3125em;
+}
+
+.s-t-a p{
+    padding-top: 15px;
+    font-size: 18px;
+    color: #33475b;
+    font-weight: 400;
+}
+
+#f{
+    height: 500px;
+}
+
+.s-t-b{
+    background-color: white;
+    margin-top: 30px;
+    padding: 60px 20px 0 20px;
+    float: right;
+    width: 60%;
+}
+
+h3{
+    padding-left: 5px;
+    font-size: 27px;
+    color: #33475b;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.s-t-b p{
+    padding: 10px 0;
+}
+
+.s-t-b ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px 15px 10px 0;
+}
+
+h5{
+    margin: 15px 0;
+    color: #33475b;
+}
+#lista{
+    background-color: orange;
+    border-radius: 2px;
+    border: 1px solid orange;
+    padding: 7px 15px 7px 15px;
+}
+
+.fa-check-circle{
+    color: orange;
 }
